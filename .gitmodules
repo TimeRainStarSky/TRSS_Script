@@ -1,0 +1,4 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/TimeRainStarSky/TRSS_Script
+	branch = docs
