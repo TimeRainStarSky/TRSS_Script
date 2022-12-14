@@ -88,12 +88,12 @@ features:
 
   - title: fd 文件搜索
     icon: copy
-    details: 文件搜索工具
+    details: 快速文件搜索工具
     link: https://github.com/sharkdp/fd
 
   - title: fzf 模糊搜索
     icon: lock
-    details: 模糊搜索工具
+    details: 快速模糊搜索工具
     link: https://github.com/junegunn/fzf
 
   - title: 🌈 lolcat 彩虹输出

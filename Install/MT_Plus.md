@@ -26,6 +26,16 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 /data/user/0/bin.mt.plus/home/Arch/rootfs/root
 ```
 
+<details><summary>可选项目</summary>
+
+手动下载 `ArchLinux LXC RootFS (rootfs.tar.xz)`
+
+- [Linux Containers 官网](https://images.linuxcontainers.org/images/archlinux/current/arm64/default)
+- [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn/lxc-images/images/archlinux/current/arm64/default)
+- [北京外国语大学镜像站](https://mirrors.bfsu.edu.cn/lxc-images/images/archlinux/current/arm64/default)
+
+</details>
+
 ---
 
 下一步：[Arch Linux](Arch_Linux.md)
