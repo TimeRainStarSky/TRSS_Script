@@ -101,8 +101,6 @@ features:
   - title: 更多功能
     icon: more
     details: 等待你来提出……
-copyright: false
-footer: 使用 <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope
 ---
 
 ## 联系方式

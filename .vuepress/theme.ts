@@ -36,7 +36,7 @@ export default hopeTheme({
       footer: "TRSS 脚本 使用文档",
       displayFooter: true,
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页"
+        editLink: "编辑此页"
       }
     }
   },
@@ -45,7 +45,8 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://waline-ashy.vercel.app",
-      login: "force"
+      login: "force",
+      reaction: true
     },
 
     copyCode: {
