@@ -13,6 +13,7 @@ export default hopeTheme({
   logo: "/logo.svg",
   repo: "TimeRainStarSky/TRSS_Script",
   docsDir: "docs",
+  docsBranch: "",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
   fullscreen: true,
 
@@ -34,9 +35,9 @@ export default hopeTheme({
       footer: "TRSS 脚本 使用文档",
       displayFooter: true,
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+        editLink: "在 GitHub 上编辑此页"
+      }
+    }
   },
 
   plugins: {
