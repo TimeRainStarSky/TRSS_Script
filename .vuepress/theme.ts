@@ -30,7 +30,7 @@ export default hopeTheme({
         "/",
         { text: "▲ Vercel", link: "https://TRSS-Script.vercel.app" },
         { text: "GitHub", icon: "github", link: "https://TimeRainStarSky.github.io/TRSS_Script" },
-        { text: "Gitee", icon: "gitee", link: "https://TimeRainStarSky.gitee.io/TRSS_Script" }
+        { text: "Gitee", icon: "gitee", link: "https://gitee.com/TimeRainStarSky/TRSS_Script" }
       ]),
       sidebar: sidebar({"/": list}),
       footer: "TRSS 脚本 使用文档",
