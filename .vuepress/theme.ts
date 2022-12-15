@@ -28,9 +28,10 @@ export default hopeTheme({
     "/": {
       navbar: navbar([
         "/",
-        { text: "▲ Vercel", link: "https://TRSS-Script.vercel.app" },
-        { text: "GitHub", icon: "github", link: "https://TimeRainStarSky.github.io/TRSS_Script" },
-        { text: "Gitee", icon: "gitee", link: "https://gitee.com/TimeRainStarSky/TRSS_Script" }
+        { text: "🌌 TRSS", link: "https://TRSS.me" },
+        { text: "▲ Vercel", link: "https://TRSS-Script.Vercel.app" },
+        { text: "GitHub", icon: "github", link: "https://TimeRainStarSky.GitHub.io/TRSS_Script" },
+        { text: "Gitee", icon: "gitee", link: "https://Gitee.com/TimeRainStarSky/TRSS_Script" }
       ]),
       sidebar: sidebar({"/": list}),
       footer: "TRSS 脚本 使用文档",
@@ -44,7 +45,7 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Waline",
-      serverURL: "https://waline-ashy.vercel.app",
+      serverURL: "https://Waline.TRSS.me",
       login: "force",
       reaction: true
     },
