@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://TimeRainStarSky.github.io/TRSS_Script/TRSS_Script/sitemap.xml
+Sitemap: https://TRSS.me/TRSS_Script/sitemap.xml
