@@ -1,4 +1,3 @@
-
 name: 部署文档
 
 on:
@@ -22,13 +21,11 @@ jobs:
           version: 7
           run_install: true
 
-
       - name: 设置 Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: pnpm
-
 
       - name: 构建文档
         env:
