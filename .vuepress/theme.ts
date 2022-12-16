@@ -2,7 +2,7 @@ import { hopeTheme, navbar, sidebar } from "vuepress-theme-hope";
 import { list } from "./list.js";
 
 export default hopeTheme({
-  hostname: "https://TimeRainStarSky.github.io/TRSS_Script",
+  hostname: "https://TimeRainStarSky.GitHub.io",
 
   author: {
     name: "时雨🌌星空",
