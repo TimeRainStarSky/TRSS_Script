@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://TimeRainStarSky.github.io/TRSS_Script/TRSS_Script/sitemap.xml
