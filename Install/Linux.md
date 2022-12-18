@@ -1,6 +1,6 @@
 ---
 title: Linux
-icon: discover
+icon: linux
 order: 3
 date: 2022-12-14
 category:
@@ -8,6 +8,6 @@ category:
   - Linux
 ---
 
-- [Docker：应用容器引擎](Docker.md)
+- [<FontIcon icon="page"/> Docker：应用容器引擎](Docker.md)
 
-- [TMOE：PRoot/chroot 容器脚本](TMOE.md)
+- [<FontIcon icon="page"/> TMOE：PRoot/chroot 容器脚本](TMOE.md)

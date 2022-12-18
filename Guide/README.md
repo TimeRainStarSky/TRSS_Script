@@ -1,11 +1,11 @@
 ---
 title: 使用教程
-icon: creative
-date: 2022-12-14
+icon: guide
+date: 2022-12-18
 category:
   - 使用教程
 ---
 
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-Guide&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-Guide/count.svg)
+- [<FontIcon icon="shell"/> CLI：命令行界面](CLI/)
 
-敬请期待……
+- [<FontIcon icon="window"/> TUI：文本用户界面](TUI/)

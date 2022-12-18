@@ -12,29 +12,34 @@ export const list = [
     icon: "config",
     link: "Install/",
     prefix: "Install/",
+    collapsible: true,
     children: [
       {
         text: "Windows",
-        icon: "discover",
+        icon: "windows",
         link: "Windows.md",
+        collapsible: true,
         children: [MSYS2, ArchWSL, Docker]
       },
       {
         text: "Mac",
         icon: "discover",
         link: "Mac.md",
+        collapsible: true,
         children: [Docker]
       },
       {
         text: "Linux",
-        icon: "discover",
+        icon: "linux",
         link: "Linux.md",
+        collapsible: true,
         children: [Docker, TMOE]
       },
       {
         text: "Android",
-        icon: "discover",
+        icon: "android",
         link: "Android.md",
+        collapsible: true,
         children: [MT_Plus, TMOE]
       },
       Arch_Linux
@@ -42,9 +47,10 @@ export const list = [
   },
   {
     text: "使用教程",
-    icon: "creative",
+    icon: "guide",
     link: "Guide/",
     prefix: "Guide/",
+    collapsible: true,
     children: "structure"
   }
 ]

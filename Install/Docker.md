@@ -70,7 +70,7 @@ docker run -itPd
   -h 主机名
   --name 容器名
   -v 数据路径:/root/项目名
-  --restart=always #自启动
+  --restart always #自启动
   -p 2536:80 #端口映射
   镜像名
 ```

@@ -38,4 +38,4 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 ---
 
-下一步：[Arch Linux](Arch_Linux.md)
+下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)

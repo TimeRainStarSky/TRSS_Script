@@ -99,4 +99,4 @@ curl -LO gitee.com/mo2/linux/raw/2/2.awk && awk -f 2.awk
 
 ---
 
-下一步：[Arch Linux](Arch_Linux.md)
+下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)

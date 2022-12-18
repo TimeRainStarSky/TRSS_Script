@@ -1,15 +1,15 @@
 ---
 title: 安装教程
-icon: discover
+icon: config
 date: 2022-12-14
 category:
   - 安装教程
 ---
 
-- [Windows](Windows.md)
+- [<FontIcon icon="windows"/> Windows](Windows.md)
 
-- [Mac](Mac.md)
+- [<FontIcon icon="discover"/> Mac](Mac.md)
 
-- [Linux](Linux.md)
+- [<FontIcon icon="linux"/> Linux](Linux.md)
 
-- [Android](Android.md)
+- [<FontIcon icon="android"/> Android](Android.md)
