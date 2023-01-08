@@ -15,9 +15,9 @@ category:
 
 TMOE 启动命令：
 ```sh
-curl -LO l.tmoe.me/2.awk && awk -f 2.awk
+awk -f <(curl -L l.tmoe.me/2.awk)
 # 备用地址：
-curl -LO gitee.com/mo2/linux/raw/2/2.awk && awk -f 2.awk
+awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 ```
 在 Linux 中启动 TMOE，会出现以下选项，请选择 Manager
 

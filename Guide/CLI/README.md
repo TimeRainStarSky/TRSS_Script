@@ -38,8 +38,9 @@ category:
 | 进程管理 | `htop` | `h` |
 | 实时网速 | `nethogs` | `nh` |
 | 存储分析 | `ncdu` | `n` |
-| 文本搜索 | `text_search` | `t` |
+| 文本搜索 | `text_search` | `ts` |
 | 文件搜索 | `file_search` | `fs` |
+| 远程控制 | `tmate` | `t` |
 | 代理设置 | `proxy` | `p` |
 | 自启动设置 | `autostart` | `a` |
 | 下载服务器设置 | `server` | `s` |

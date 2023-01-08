@@ -3,7 +3,7 @@ const MSYS2      = { text: "MSYS2",      icon: "page", link: "MSYS2.md"      }
 const ArchWSL    = { text: "ArchWSL",    icon: "page", link: "ArchWSL.md"    }
 const Docker     = { text: "Docker",     icon: "page", link: "Docker.md"     }
 const TMOE       = { text: "TMOE",       icon: "page", link: "TMOE.md"       }
-const MT_Plus    = { text: "MT管理器",   icon: "page", link: "MT_Plus.md"    }
+const MTArch     = { text: "MT管理器",   icon: "page", link: "MTArch.md"     }
 
 export const list = [
   "",
@@ -40,7 +40,7 @@ export const list = [
         icon: "android",
         link: "Android.md",
         collapsible: true,
-        children: [MT_Plus, TMOE]
+        children: [MTArch, TMOE]
       },
       Arch_Linux
     ]
