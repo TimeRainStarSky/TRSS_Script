@@ -71,7 +71,7 @@ docker run -itPd
   --name 容器名
   -v 数据路径:/root/项目名
   --restart always #自启动
-  -p 2536:80 #端口映射
+  -p 主机端口:容器端口 #端口映射
   镜像名
 ```
 
@@ -93,7 +93,10 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock
 若显示以上内容，请先启动 Docker Daemon
 
 ```sh
+# systemctl
 systemctl enable --now docker
+# service
+service docker start
 ```
 
 ---
@@ -105,7 +108,7 @@ Got permission denied while trying to connect to the Docker daemon socket at uni
 若显示以上内容，请添加当前用户到 docker 组
 
 ```sh
-sudo gpasswd -a "$USER" docker
+sudo usermod -aG docker $USER
 ```
 
 ---

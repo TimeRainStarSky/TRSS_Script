@@ -12,18 +12,10 @@ category:
 
 1. 准备：[MT管理器](https://mt2.cn)
 
-2. 打开终端，执行：
+2. 打开 `MT管理器`，菜单选择 `终端模拟器`，执行：
 
 ```sh
 curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh
-```
-
-3. 启动：`start`
-
-4. 文件管理：长按 `底栏 ↑` 输入：
-
-```
-/data/user/0/bin.mt.plus/home/Arch/rootfs/root
 ```
 
 <details><summary>可选项目</summary>
@@ -36,6 +28,12 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 </details>
 
----
+3. 脚本安装：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
 
-下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
+4. 启动：`start`
+
+5. 文件管理：长按 `底栏 ↑` 输入：
+
+```
+/data/user/0/bin.mt.plus/home/Arch/rootfs/root
+```
