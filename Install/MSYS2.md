@@ -57,3 +57,11 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-MSYS2.sh)
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-MSYS2.sh)
 ```
+
+# 常见问题
+
+- 问：未能同步所有数据库（无法锁定数据库）
+- 答：右键 `以管理员身份运行` 或 `rm /var/lib/pacman/db.lck`
+
+- 问：无法提交处理（无效或已损坏的软件包）
+- 答：`pacman -Syy msys2-keyring`

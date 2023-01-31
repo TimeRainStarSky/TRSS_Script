@@ -59,3 +59,11 @@ DIR=/Bot CMD=trss bash <(x
 ```
 
 </details>
+
+# 常见问题
+
+- 问：未能同步所有数据库（无法锁定数据库）
+- 答：`rm /var/lib/pacman/db.lck`
+
+- 问：无法提交处理（无效或已损坏的软件包）
+- 答：`pacman -Syy archlinux-keyring`
