@@ -58,10 +58,36 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-MSYS2.sh)
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-MSYS2.sh)
 ```
 
+<details><summary>自定义功能</summary>
+
+自定义 安装路径 `DIR` 和 启动命令 `CMD`（可用于多开）
+
+举例：将脚本安装至 `/Bot` 启动命令 `trss`
+
+```
+DIR=/Bot CMD=trss bash <(x
+```
+
+</details>
+
 # 常见问题
 
-- 问：未能同步所有数据库（无法锁定数据库）
-- 答：右键 `以管理员身份运行` 或 `rm /var/lib/pacman/db.lck`
+```
+未能同步所有数据库（无法锁定数据库）
+```
 
-- 问：无法提交处理（无效或已损坏的软件包）
-- 答：`pacman -Syy msys2-keyring`
+右键 `以管理员身份运行`
+
+```sh
+rm /var/lib/pacman/db.lck
+```
+
+---
+
+```
+无法提交处理（无效或已损坏的软件包）
+```
+
+```sh
+pacman -Syy msys2-keyring
+```

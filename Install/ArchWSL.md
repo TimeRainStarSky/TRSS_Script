@@ -125,3 +125,13 @@ pacman -Syy archlinux-keyring && pacman -Syu
 ---
 
 下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
+
+# 常见问题
+
+```
+参考的对象类型不支持尝试的操作。
+```
+
+```sh
+netsh winsock reset
+```

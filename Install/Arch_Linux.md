@@ -48,7 +48,7 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install.sh)
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install.sh)
 ```
 
-<details><summary>附加功能</summary>
+<details><summary>自定义功能</summary>
 
 自定义 安装路径 `DIR` 和 启动命令 `CMD`（可用于多开）
 
@@ -62,8 +62,20 @@ DIR=/Bot CMD=trss bash <(x
 
 # 常见问题
 
-- 问：未能同步所有数据库（无法锁定数据库）
-- 答：`rm /var/lib/pacman/db.lck`
+```
+未能同步所有数据库（无法锁定数据库）
+```
 
-- 问：无法提交处理（无效或已损坏的软件包）
-- 答：`pacman -Syy archlinux-keyring`
+```sh
+rm /var/lib/pacman/db.lck
+```
+
+---
+
+```
+无法提交处理（无效或已损坏的软件包）
+```
+
+```sh
+pacman -Syy archlinux-keyring
+```

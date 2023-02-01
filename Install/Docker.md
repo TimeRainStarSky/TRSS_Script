@@ -44,7 +44,7 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-Docker.sh)
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-Docker.sh)
 ```
 
-<details><summary>附加功能</summary>
+<details><summary>自定义功能</summary>
 
 自定义 安装路径 `DIR` 启动命令 `CMD` 容器名 `DKNAME` （可用于多开）
 
