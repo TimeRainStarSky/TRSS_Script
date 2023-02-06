@@ -3,6 +3,7 @@ home: true
 icon: home
 title: 项目主页
 heroImage: /logo.png
+heroImageDark: /logod.png
 heroText: TRSS Script
 tagline: TRSS 脚本 使用文档
 actions:
