@@ -32,7 +32,7 @@ dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 wsl --set-default-version 2
 ```
 
-::: warning
+::: tip
 
 输出以下内容则表示 WSL2 启用成功
 
@@ -50,16 +50,20 @@ wsl --update
 ```
 
 ::: warning
-注：若卡在这一步，可手动下载安装更新包：<https://aka.ms/wsl2kernel>
+若速度太慢，可手动下载安装更新包：<https://aka.ms/wsl2kernel>
 :::
 
 4. 从 [ArchWSL GitHub Releases Assets](https://github.com/yuk7/ArchWSL/releases/latest) 中下载 `Arch.zip` 并解压
 
-::: tip
+::: warning
 若速度太慢，可使用 GitHub 加速，如：[GitHub Proxy](https://ghproxy.com)
 :::
 
-5. 启动`Arch.exe`，输出以下内容则表示 ArchWSL 安装成功
+5. 启动 `Arch.exe`
+
+::: tip
+
+输出以下内容则表示 ArchWSL 安装成功
 
 ```
 Using: xxx\rootfs.tar.gz
@@ -67,6 +71,8 @@ Installing...
 Installation complete
 Press enter to continue...
 ```
+
+:::
 
 6. 在 `文件资源管理器` 中打开（`Win+R` 运行）：
 
@@ -100,11 +106,17 @@ Server = https://mirrors.tencent.com/arch4edu/$arch
 SigLevel = Never
 ```
 
-7. 启动 `Arch.exe`，输出以下内容则表示 ArchWSL 启动成功
+7. 启动 `Arch.exe`
+
+::: tip
+
+输出以下内容则表示 ArchWSL 启动成功
 
 ```
 [root@xxx Arch]#
 ```
+
+:::
 
 8. 更新软件包
 
