@@ -8,17 +8,13 @@ category:
   - MSYS2
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-MSYS2&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-MSYS2/count.svg)](https://msys2.org)
-
----
-
-# MSYS2 安装
+## MSYS2 安装
 
 - [MSYS2 UCRT64](https://msys2.org)
 
 - [GitHub Proxy 镜像源](https://ghproxy.com/github.com/msys2/msys2-installer/releases/download/nightly-x86_64/msys2-x86_64-latest.exe)
 
-# 脚本安装
+## 脚本安装
 
 ::: warning
 首次安装可能会自动关闭，再次启动即可
@@ -76,7 +72,7 @@ DIR=/Bot CMD=trss bash <(x
 
 :::
 
-# 常见问题
+## 常见问题
 
 ::: details 未能同步所有数据库（无法锁定数据库）
 

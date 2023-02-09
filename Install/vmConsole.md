@@ -8,8 +8,6 @@ category:
   - vmConsole
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-vmConsole&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-TRSS_Script-vmConsole/count.svg)](https://github.com/sylirre/vmConsole)
-
 ::: warning
 虚拟机运行效率太低，不建议使用
 :::

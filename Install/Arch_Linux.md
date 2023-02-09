@@ -8,9 +8,7 @@ category:
   - Arch Linux
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-Arch_Linux&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-Arch_Linux/count.svg)](https://archlinuxcn.org)
-
-# 脚本安装
+## 脚本安装
 
 ::: code-tabs#Script
 
@@ -63,7 +61,7 @@ DIR=/Bot CMD=trss bash <(x
 
 :::
 
-# 常见问题
+## 常见问题
 
 ::: details 未能同步所有数据库（无法锁定数据库）
 

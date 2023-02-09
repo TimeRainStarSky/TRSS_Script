@@ -8,8 +8,6 @@ category:
   - MT管理器
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-MTArch&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-TRSS_Script-MTArch/count.svg)](https://github.com/TimeRainStarSky/TRSS-MTArch)
-
 1. 准备：[MT 管理器](https://mt2.cn)
 
 2. 打开 `MT管理器`，菜单选择 `终端模拟器`，执行：

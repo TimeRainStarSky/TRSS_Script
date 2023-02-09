@@ -10,9 +10,7 @@ category:
   - Docker
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-Docker&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-Docker/count.svg)](https://docker.com)
-
-# 容器安装
+## 容器安装
 
 ::: code-tabs#Script
 
@@ -60,7 +58,7 @@ DIR=/Bot CMD=trss DKNAME=TRSS bash <(x
 
 :::
 
-# 容器管理
+## 容器管理
 
 ::: code-tabs#Docker
 
@@ -107,7 +105,7 @@ docker run -itd
 
 :::
 
-# 常见问题
+## 常见问题
 
 ::: details Docker 安装失败
 

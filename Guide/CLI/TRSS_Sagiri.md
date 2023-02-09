@@ -9,9 +9,7 @@ category:
   - TRSS Sagiri
 ---
 
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-CLI-TRSS_Sagiri&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-CLI-TRSS_Sagiri/count.svg)
-
-# 主功能
+## 主功能
 
 - 用法：`tssi [用法]`
 
@@ -22,7 +20,7 @@ category:
 | Sagiri3               | `Sagiri3` | `s3` `si3` | 启动 Sagiri3 项目界面              |
 | [插件管理](#插件管理) | `plugin`  | `p`        | 启动 插件管理 界面                 |
 
-## 插件管理
+### 插件管理
 
 - 用法：`tssi plugin [用法]`
 

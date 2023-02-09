@@ -9,6 +9,4 @@ category:
   - TRSS Sagiri
 ---
 
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-TUI-TRSS_Sagiri&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-TUI-TRSS_Sagiri/count.svg)
-
-# 主功能
+## 主功能

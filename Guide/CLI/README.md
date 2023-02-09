@@ -8,9 +8,7 @@ category:
   - CLI
 ---
 
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-CLI&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-CLI/count.svg)
-
-# 通用功能
+## 通用功能
 
 - 用法：`[项目命令] [用法]`
 
@@ -23,7 +21,7 @@ category:
 | [检查更新](#检查更新) | `update`     | `u`  | 执行 检查更新   |
 | 执行命令              | `cmd [命令]` | `c`  | 执行 自定义命令 |
 
-## 附加功能
+### 附加功能
 
 - 用法：`[项目命令] extra [用法]`
 
@@ -48,7 +46,7 @@ category:
 | 🌈 彩虹输出设置 | `rainbow`       | `r`   |
 | 重装字体        | `fonts`         | `fo`  |
 
-## 检查更新
+### 检查更新
 
 - 用法：`[项目命令] update [用法]`
 
@@ -57,13 +55,13 @@ category:
 | 全部的 | `all`   | `a`  | 同时更新 所有 Git 项目 |
 | 安静的 | `quiet` | `q`  | 不显示 TUI 界面        |
 
-## 注
+### 注
 
 - 若 `通用功能的缩写` 与 `项目功能的缩写` 重复，`项目功能` 优先
 
-# 项目功能
+## 项目功能
 
-## 通用功能
+### 通用功能
 
 - 用法：`[项目命令] [项目名称] [用法]`
 
@@ -79,7 +77,7 @@ category:
 | 重装项目 | `download` | `d`  | 重新安装 项目         |
 | 检查更新 | `update`   | `u`  | 更新 项目             |
 
-## 专用功能
+### 专用功能
 
 - [<FontIcon icon="creative"/> TRSS OneBot](TRSS_OneBot.md)
 

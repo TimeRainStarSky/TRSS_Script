@@ -2,8 +2,9 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /logo.png
-heroImageDark: /logod.png
+heroAlt: 苏半夏
+heroImage: /苏半夏.png
+heroImageDark: /苏半夏冬.png
 heroText: TRSS Script
 tagline: TRSS 脚本 使用文档
 actions:
@@ -126,7 +127,3 @@ features:
 - 爱发电：<https://afdian.net/a/TimeRainStarSky>
 - Partme：<https://partme.com/TimeRainStarSky>
 - 感谢名单：<https://github.com/TimeRainStarSky/SponsorList>
-
----
-
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script/count.svg)

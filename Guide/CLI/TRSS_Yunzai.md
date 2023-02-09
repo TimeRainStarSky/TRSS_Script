@@ -9,9 +9,7 @@ category:
   - TRSS Yunzai
 ---
 
-![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-CLI-TRSS_Yunzai&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-CLI-TRSS_Yunzai/count.svg)
-
-# 主功能
+## 主功能
 
 - 用法：`tsyz [用法]`
 
@@ -21,7 +19,7 @@ category:
 | Adachi                | `Adachi` | `a` `ac` | 启动 Adachi 项目界面 |
 | [插件管理](#插件管理) | `plugin` | `p`      | 启动 插件管理 界面   |
 
-## 插件管理
+### 插件管理
 
 - 用法：`tsyz plugin [用法]`
 

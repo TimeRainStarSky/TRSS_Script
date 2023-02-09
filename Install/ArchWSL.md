@@ -8,10 +8,6 @@ category:
   - ArchWSL
 ---
 
-[![访问量](https://visitor-badge.glitch.me/badge?page_id=TimeRainStarSky-TRSS_Script-ArchWSL&right_color=red&left_text=访%20问%20量) ![访问量](https://profile-counter.glitch.me/TimeRainStarSky-TRSS_Script-ArchWSL/count.svg)](https://github.com/yuk7/ArchWSL)
-
----
-
 1. 在 `终端(管理员)` 或 `Windows 功能` 中：
 
 启用 `适用于 Linux 的 Windows 子系统`
@@ -140,7 +136,7 @@ pacman -Syy archlinux-keyring && pacman -Syu
 
 ---
 
-# 常见问题
+## 常见问题
 
 ::: details 参考的对象类型不支持尝试的操作。
 

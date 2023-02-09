@@ -14,7 +14,7 @@ export default hopeTheme({
   repo: "TimeRainStarSky/TRSS_Script",
   docsDir: "docs",
   docsBranch: "",
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "Word", "PageView"],
   fullscreen: true,
 
   themeColor: {
@@ -47,7 +47,8 @@ export default hopeTheme({
       provider: "Waline",
       serverURL: "https://Waline.TRSS.me",
       login: "force",
-      reaction: true
+      reaction: true,
+      pageview: true
     },
 
     copyCode: {
@@ -178,4 +179,4 @@ export default hopeTheme({
       }
     }
   }
-});
+})
