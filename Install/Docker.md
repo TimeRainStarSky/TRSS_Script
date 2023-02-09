@@ -14,59 +14,89 @@ category:
 
 # 容器安装
 
-## TRSS Liteyuki
+::: code-tabs#Script
+
+@tab TRSS Liteyuki
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Liteyuki/raw/main/Install-Docker.sh)
 ```
 
-## TRSS Yunzai
+@tab TRSS Yunzai
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install-Docker.sh)
 ```
 
-## TRSS Sagiri
+@tab TRSS Sagiri
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Sagiri/raw/main/Install-Docker.sh)
 ```
 
-## TRSS Amiya
+@tab TRSS Amiya
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-Docker.sh)
 ```
 
-## TRSS Zhenxun
+@tab TRSS Zhenxun
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-Docker.sh)
 ```
 
-<details><summary>自定义功能</summary>
+:::
+
+::: details 自定义功能
 
 自定义 安装路径 `DIR` 启动命令 `CMD` 容器名 `DKNAME` （可用于多开）
 
-举例：将脚本安装至 `/Bot` 启动命令 `trss` 容器名 `TRSS` 
+举例：将脚本安装至 `/Bot` 启动命令 `trss` 容器名 `TRSS`
 
 ```sh
 DIR=/Bot CMD=trss DKNAME=TRSS bash <(x
 ```
 
-</details>
+:::
 
 # 容器管理
 
-- 查看容器：`docker ps -as`
-- 启动容器：`docker start 容器名`（默认开机自启，无需手动启动）
-- 重启容器：`docker restart -t0 容器名`
-- 停止容器：`docker stop -t0 容器名`
-- 删除容器：`docker rm -f 容器名`
-- 重建容器：
+::: code-tabs#Docker
+
+@tab 查看容器
+```sh
+docker ps -as
+```
+
+@tab 启动容器
 
 ```sh
-docker run -itPd
+docker start 容器名 # 默认开机自启，无需手动启动
+```
+
+@tab 重启容器
+
+```sh
+docker restart -t0 容器名
+```
+
+@tab 停止容器
+
+```sh
+docker stop -t0 容器名
+```
+
+@tab 删除容器
+
+```sh
+docker rm -f 容器名
+```
+
+@tab 重建容器
+
+```sh
+docker run -itd
   -h 主机名
   --name 容器名
   -v 数据路径:/root/项目名
@@ -75,22 +105,20 @@ docker run -itPd
   镜像名
 ```
 
+:::
+
 # 常见问题
 
-```
-Docker 安装失败
-```
+::: details Docker 安装失败
 
 - Docker 官方教程：<https://docker.com>
 - Docker-Practice 教程：<https://vuepress.mirror.docker-practice.com/install>
 
----
+:::
 
-```
-Cannot connect to the Docker daemon at unix:///var/run/docker.sock
-```
+::: details Cannot connect to the Docker daemon at unix:///var/run/docker.sock
 
-若显示以上内容，请先启动 Docker Daemon
+启动 Docker Daemon
 
 ```sh
 # systemctl
@@ -99,23 +127,21 @@ systemctl enable --now docker
 service docker start
 ```
 
----
+:::
 
-```
-Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock
-```
+::: details Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock
 
-若显示以上内容，请添加当前用户到 docker 组
+添加当前用户到 docker 组
 
 ```sh
 sudo usermod -aG docker $USER
 ```
 
+:::
+
 ---
 
 服务器 Linux 发行版 推荐使用 `Debian 11` 以上
-
-服务器安装视频教程：<https://bilibili.com/video/BV1ie4y1b7zE>
 
 若只有 `Debian 10` 以下，可执行以下命令并重启服务器后升级到 `Debian 12`
 

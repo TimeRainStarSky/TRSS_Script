@@ -12,7 +12,7 @@ category:
 
 ---
 
-在 `终端(管理员)` 或 `Windows 功能` 中：
+1. 在 `终端(管理员)` 或 `Windows 功能` 中：
 
 启用 `适用于 Linux 的 Windows 子系统`
 
@@ -26,11 +26,13 @@ dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
 dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 
-重启设备后，启用 WSL2
+2. 重启设备后，启用 WSL2
 
 ```sh
 wsl --set-default-version 2
 ```
+
+::: warning
 
 输出以下内容则表示 WSL2 启用成功
 
@@ -39,21 +41,25 @@ wsl --set-default-version 2
 操作成功完成。
 ```
 
-更新 WSL2 内核
+:::
+
+3. 更新 WSL2 内核
 
 ```sh
 wsl --update
 ```
 
+::: warning
 注：若卡在这一步，可手动下载安装更新包：<https://aka.ms/wsl2kernel>
+:::
 
----
+4. 从 [ArchWSL GitHub Releases Assets](https://github.com/yuk7/ArchWSL/releases/latest) 中下载 `Arch.zip` 并解压
 
-从 [ArchWSL GitHub Releases Assets](https://github.com/yuk7/ArchWSL/releases/latest) 中下载 `Arch.zip` 并解压
-
+::: tip
 若速度太慢，可使用 GitHub 加速，如：[GitHub Proxy](https://ghproxy.com)
+:::
 
-启动`Arch.exe`，输出以下内容则表示 ArchWSL 安装成功
+5. 启动`Arch.exe`，输出以下内容则表示 ArchWSL 安装成功
 
 ```
 Using: xxx\rootfs.tar.gz
@@ -62,9 +68,7 @@ Installation complete
 Press enter to continue...
 ```
 
----
-
-在 `文件资源管理器` 中打开（`Win+R` 运行）：
+6. 在 `文件资源管理器` 中打开（`Win+R` 运行）：
 
 ```
 \\wsl$\Arch\etc\pacman.d
@@ -96,19 +100,19 @@ Server = https://mirrors.tencent.com/arch4edu/$arch
 SigLevel = Never
 ```
 
----
-
-启动 `Arch.exe`，输出以下内容则表示 ArchWSL 启动成功
+7. 启动 `Arch.exe`，输出以下内容则表示 ArchWSL 启动成功
 
 ```
 [root@xxx Arch]#
 ```
 
-更新软件包
+8. 更新软件包
 
 ```sh
 pacman -Syy archlinux-keyring && pacman -Syu
 ```
+
+9. 脚本安装：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
 
 ---
 
@@ -124,14 +128,12 @@ pacman -Syy archlinux-keyring && pacman -Syu
 
 ---
 
-下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
-
 # 常见问题
 
-```
-参考的对象类型不支持尝试的操作。
-```
+::: details 参考的对象类型不支持尝试的操作。
 
 ```sh
 netsh winsock reset
 ```
+
+:::

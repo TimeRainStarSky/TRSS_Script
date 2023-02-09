@@ -14,14 +14,20 @@ category:
 ---
 
 TMOE 启动命令：
+
 ```sh
 awk -f <(curl -L l.tmoe.me/2.awk)
 # 备用地址：
 awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 ```
+
+::: warning
+
 在 Linux 中启动 TMOE，会出现以下选项，请选择 Manager
 
 ![1](/Install/TMOE/1.jpg)
+
+:::
 
 ---
 
@@ -29,7 +35,9 @@ awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 
 ![2](/Install/TMOE/2.jpg)
 
+::: warning
 在出现 `您要继续吗? Do you want to continue?` 之类的选项时：`[Y/n]直接按回车，[y/N]输入y再回车`
+:::
 
 ---
 
@@ -39,7 +47,9 @@ awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 
 ---
 
+::: warning
 在出现 `(Y/I/N/O/D/Z) [default=N] ?` 之类的选项时：`直接按回车即可`
+:::
 
 ![4](/Install/TMOE/4.jpg)
 
@@ -73,13 +83,23 @@ awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 
 ![7](/Install/TMOE/7.jpg)
 
-选择 `启动` (如果要多开容器，请选择新建容器)
+选择 `启动`
+
+::: tip
+如果要多开容器，请选择新建容器
+:::
 
 ![8](/Install/TMOE/8.jpg)
 
 ---
 
-等待容器安装完成 (如果在安装中出现问题，可以尝试移除容器后重装)
+等待容器安装完成
+
+::: warning
+
+如果在安装中出现问题，可以尝试移除容器后重装
+
+:::
 
 首次启动，按提示选择配置：
 
@@ -89,14 +109,14 @@ awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 
 3. delete ~/zsh.sh：`选择 是`
 
-4. 启动tmoe tools?：`选择 否` (需要使用输入 tmoe 启动即可)
+4. 启动 tmoe tools?：`选择 否` (需要使用输入 tmoe 启动即可)
+
+---
+
+脚本安装：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
 
 ---
 
 进入容器命令：`tmoe p/c a` (p 指 PRoot 容器，c 指 chroot 容器)
 
-管理容器命令：`tmoe`
-
----
-
-下一步：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
+管理容器命令：`tmoe ls`

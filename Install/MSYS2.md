@@ -20,45 +20,51 @@ category:
 
 # 脚本安装
 
-- （首次安装可能会自动关闭，再次启动即可）
+::: warning
+首次安装可能会自动关闭，再次启动即可
+:::
 
-## TRSS OneBot
+::: code-tabs#Script
+
+@tab TRSS OneBot
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_OneBot/raw/linux/Install-MSYS2.sh)
 ```
 
-## TRSS Liteyuki
+@tab TRSS Liteyuki
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Liteyuki/raw/main/Install-MSYS2.sh)
 ```
 
-## TRSS Yunzai
+@tab TRSS Yunzai
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install-MSYS2.sh)
 ```
 
-## TRSS Sagiri
+@tab TRSS Sagiri
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Sagiri/raw/main/Install-MSYS2.sh)
 ```
 
-## TRSS Amiya
+@tab TRSS Amiya
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-MSYS2.sh)
 ```
 
-## TRSS Zhenxun
+@tab TRSS Zhenxun
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-MSYS2.sh)
 ```
 
-<details><summary>自定义功能</summary>
+:::
+
+::: details 自定义功能
 
 自定义 安装路径 `DIR` 和 启动命令 `CMD`（可用于多开）
 
@@ -68,13 +74,11 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-MSYS2.sh)
 DIR=/Bot CMD=trss bash <(x
 ```
 
-</details>
+:::
 
 # 常见问题
 
-```
-未能同步所有数据库（无法锁定数据库）
-```
+::: details 未能同步所有数据库（无法锁定数据库）
 
 右键 `以管理员身份运行`
 
@@ -82,12 +86,12 @@ DIR=/Bot CMD=trss bash <(x
 rm /var/lib/pacman/db.lck
 ```
 
----
+:::
 
-```
-无法提交处理（无效或已损坏的软件包）
-```
+::: details 无法提交处理（无效或已损坏的软件包）
 
 ```sh
 pacman -Syy msys2-keyring
 ```
+
+:::

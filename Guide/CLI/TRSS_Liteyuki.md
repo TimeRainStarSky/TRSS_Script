@@ -15,16 +15,16 @@ category:
 
 - 用法：`tsly [用法]`
 
-| 名称 | 用法 | 缩写 | 说明 |
-| ---- | ---- | ---- | ---- |
-| go-cqhttp | `go-cqhttp` | `g` `gcq` | 启动 go-cqhttp 项目界面 |
-| Liteyuki | `Liteyuki` | `l` `ly` | 启动 Liteyuki 项目界面 |
-| LittlePaimon | `LittlePaimon` | `lp` | 启动 LittlePaimon 项目界面 |
+| 名称         | 用法           | 缩写      | 说明                       |
+| ------------ | -------------- | --------- | -------------------------- |
+| go-cqhttp    | `go-cqhttp`    | `g` `gcq` | 启动 go-cqhttp 项目界面    |
+| Liteyuki     | `Liteyuki`     | `l` `ly`  | 启动 Liteyuki 项目界面     |
+| LittlePaimon | `LittlePaimon` | `lp`      | 启动 LittlePaimon 项目界面 |
 
 ## 通用功能
 
 - 用法：`tsly [项目名称] [用法]`
 
-| 名称 | 用法 | 缩写 | 说明 |
-| ---- | ---- | ---- | ---- |
-| 插件管理 | `plugin` | `p` | 启动 插件管理 界面 |
+| 名称     | 用法     | 缩写 | 说明               |
+| -------- | -------- | ---- | ------------------ |
+| 插件管理 | `plugin` | `p`  | 启动 插件管理 界面 |

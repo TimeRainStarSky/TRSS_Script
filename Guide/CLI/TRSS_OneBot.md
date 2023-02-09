@@ -15,8 +15,8 @@ category:
 
 - 用法：`tsob [用法]`
 
-| 名称 | 用法 | 缩写 | 说明 |
-| ---- | ---- | ---- | ---- |
-| go-cqhttp | `go-cqhttp` | `g` `gcq` | 启动 go-cqhttp 项目界面 |
-| ZeroBot | `ZeroBot` | `z` `zbp` | 启动 ZeroBot-Plugin 项目界面 |
-| PaimengBot | `PaimengBot` | `p` `pmb` | 启动 PaimengBot 项目界面 |
+| 名称       | 用法         | 缩写      | 说明                         |
+| ---------- | ------------ | --------- | ---------------------------- |
+| go-cqhttp  | `go-cqhttp`  | `g` `gcq` | 启动 go-cqhttp 项目界面      |
+| ZeroBot    | `ZeroBot`    | `z` `zbp` | 启动 ZeroBot-Plugin 项目界面 |
+| PaimengBot | `PaimengBot` | `p` `pmb` | 启动 PaimengBot 项目界面     |
