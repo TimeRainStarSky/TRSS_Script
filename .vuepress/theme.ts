@@ -10,7 +10,9 @@ export default hopeTheme({
   },
 
   iconAssets: "iconfont",
-  logo: "/logo.svg",
+  favicon: "苏半夏Q.png",
+  logo: "苏半夏Q.png",
+  logoDark: "苏半夏QD.png",
   repo: "TimeRainStarSky/TRSS_Script",
   docsDir: "docs",
   docsBranch: "",
@@ -99,40 +101,30 @@ export default hopeTheme({
     },
 
     pwa: {
-      favicon: "/favicon.ico",
+      favicon: "/苏半夏Q.png",
       cacheHTML: true,
       cachePic: true,
       appendBase: true,
       apple: {
-        icon: "/assets/icon/apple-icon-152.png",
+        icon: "/苏半夏Q.png",
         statusBarColor: "black"
       },
       msTile: {
-        image: "/assets/icon/ms-icon-144.png",
+        image: "/苏半夏Q.png",
         color: "#ffffff"
       },
       manifest: {
         icons: [
           {
-            src: "/assets/icon/chrome-mask-512.png",
-            sizes: "512x512",
+            src: "/苏半夏Q.png",
+            sizes: "162x162",
             purpose: "maskable",
             type: "image/png"
           },
           {
-            src: "/assets/icon/chrome-mask-192.png",
-            sizes: "192x192",
-            purpose: "maskable",
-            type: "image/png"
-          },
-          {
-            src: "/assets/icon/chrome-512.png",
-            sizes: "512x512",
-            type: "image/png"
-          },
-          {
-            src: "/assets/icon/chrome-192.png",
-            sizes: "192x192",
+            src: "/苏半夏QD.png",
+            sizes: "162x162",
+            purpose: "monochrome",
             type: "image/png"
           }
         ],
@@ -143,14 +135,14 @@ export default hopeTheme({
             url: "Install/",
             icons: [
               {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
+                src: "/苏半夏Q.png",
+                sizes: "162x162",
                 purpose: "maskable",
                 type: "image/png"
               },
               {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
+                src: "/苏半夏QD.png",
+                sizes: "162x162",
                 purpose: "monochrome",
                 type: "image/png"
               }
@@ -162,14 +154,14 @@ export default hopeTheme({
             url: "Guide/",
             icons: [
               {
-                src: "/assets/icon/guide-maskable.png",
-                sizes: "192x192",
+                src: "/苏半夏Q.png",
+                sizes: "162x162",
                 purpose: "maskable",
                 type: "image/png"
               },
               {
-                src: "/assets/icon/guide-monochrome.png",
-                sizes: "192x192",
+                src: "/苏半夏QD.png",
+                sizes: "162x162",
                 purpose: "monochrome",
                 type: "image/png"
               }

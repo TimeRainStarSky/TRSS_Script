@@ -4,7 +4,7 @@ icon: home
 title: 项目主页
 heroAlt: 苏半夏
 heroImage: /苏半夏.png
-heroImageDark: /苏半夏冬.png
+heroImageDark: /苏半夏D.png
 heroText: TRSS Script
 tagline: TRSS 脚本 使用文档
 actions:

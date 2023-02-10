@@ -28,6 +28,6 @@ setup-disk -m sys /dev/sda && reboot
 apk update && apk add docker && rc-update add docker && service docker start
 ```
 
-- [<FontIcon icon="page"/> Docker：Linux 应用容器引擎（推荐）](Docker.md)
+- [<FontIcon icon="page"/> Docker：Linux 应用容器（推荐）](Docker.md)
 
-- [<FontIcon icon="page"/> TMOE：PRoot/chroot 容器脚本](TMOE.md)
+- [<FontIcon icon="page"/> TMOE：PRoot/chroot 容器](TMOE.md)
