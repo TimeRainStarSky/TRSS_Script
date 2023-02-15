@@ -1,5 +1,5 @@
-import { hopeTheme, navbar, sidebar } from "vuepress-theme-hope";
-import { list } from "./list.js";
+import { hopeTheme, navbar, sidebar } from "vuepress-theme-hope"
+import { list } from "./list.js"
 
 export default hopeTheme({
   hostname: "https://TRSS.me",
@@ -118,13 +118,11 @@ export default hopeTheme({
           {
             src: "/苏半夏Q.png",
             sizes: "162x162",
-            purpose: "maskable",
             type: "image/png"
           },
           {
             src: "/苏半夏QD.png",
             sizes: "162x162",
-            purpose: "monochrome",
             type: "image/png"
           }
         ],

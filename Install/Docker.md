@@ -48,6 +48,8 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-Docker.sh
 
 ::: details 自定义功能
 
+![示意图](./Docker.svg)
+
 自定义 安装路径 `DIR` 启动命令 `CMD` 容器名 `DKNAME` （可用于多开）
 
 举例：将脚本安装至 `/Bot` 启动命令 `trss` 容器名 `TRSS`
