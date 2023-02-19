@@ -22,8 +22,10 @@ curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Insta
 
 启动：`start`
 
-文件管理：长按 `底栏 ↑` 输入：
+文件管理：点击 `顶栏 跳转` 输入：
 
 ```
 /data/user/0/bin.mt.plus/home/Arch/rootfs/root
 ```
+
+<BiliBili bvid="BV1J84y1H71b" ratio="9:20"/>

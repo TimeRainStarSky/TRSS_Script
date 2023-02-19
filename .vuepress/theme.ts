@@ -100,6 +100,11 @@ export default hopeTheme({
       vuePlayground: true
     },
 
+    components: [
+      "Badge",
+      "BiliBili",
+    ],
+
     pwa: {
       favicon: "/苏半夏Q.png",
       cacheHTML: true,
