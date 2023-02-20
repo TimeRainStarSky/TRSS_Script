@@ -10,6 +10,8 @@ category:
 
 ## 通用功能
 
+- [<FontIcon icon="command"/> 常用命令](Command.md)
+
 ## 项目功能
 
 - [<FontIcon icon="creative"/> TRSS OneBot](TRSS_OneBot.md)

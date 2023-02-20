@@ -34,12 +34,12 @@ features:
     link: https://github.com/tmux/tmux
 
   - title: micro 文本编辑
-    icon: comment
+    icon: editor
     details: 易于使用的 文本编辑器
     link: https://micro-editor.github.io
 
   - title: ranger 文件管理
-    icon: copy
+    icon: folder
     details: 易于使用的 文件管理器
     link: https://ranger.github.io
 
@@ -79,7 +79,7 @@ features:
     link: https://github.com/raboof/nethogs
 
   - title: Ncdu 存储分析
-    icon: copy
+    icon: storage
     details: 直观显示 存储占用情况
     link: https://dev.yorhel.nl/ncdu
 
@@ -94,7 +94,7 @@ features:
     link: https://github.com/sharkdp/fd
 
   - title: fzf 模糊搜索
-    icon: lock
+    icon: search
     details: 快速模糊搜索工具
     link: https://github.com/junegunn/fzf
 
@@ -103,7 +103,7 @@ features:
     link: https://github.com/busyloop/lolcat
 
   - title: 其他功能
-    icon: mobile
+    icon: update
     details: 自启动管理、插件管理、滚动更新 等等
 
   - title: 更多功能
