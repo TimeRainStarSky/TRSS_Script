@@ -1,0 +1,1 @@
+import{_ as a,Y as t,Z as r,$ as e,a0 as c}from"./framework-5c327d6b.js";const s={},_=e("h2",{id:"主功能",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#主功能","aria-hidden":"true"},"#"),c(" 主功能")],-1),o=[_];function n(i,d){return t(),r("div",null,o)}const l=a(s,[["render",n],["__file","TRSS_Sagiri.html.vue"]]);export{l as default};
