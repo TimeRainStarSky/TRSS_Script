@@ -23,10 +23,27 @@ category:
 
 ## micro 文本编辑
 
-| 名称       | 用法     |
-| ---------- | -------- |
-| 保存退出   | Ctrl+Q Y |
-| 不保存退出 | Ctrl+Q N |
+| 名称 | 用法   | 备注              |
+| ---- | ------ | ----------------- |
+| 打开 | Ctrl+O |
+| 全选 | Ctrl+A |
+| 复制 | Ctrl+C | 复制整行 Ctrl+D   |
+| 剪切 | Ctrl+X | 剪切整行 Ctrl+K   |
+| 粘贴 | Ctrl+V |
+| 撤销 | Ctrl+Z |
+| 恢复 | Ctrl+Y |
+| 查找 | Ctrl+F | ⬇ Ctrl+N ⬆ Ctrl+P |
+| 命令 | Ctrl+E | Shell 命令 Ctrl+B |
+| 录制 | Ctrl+U | 播放录制 Ctrl+J   |
+| 保存 | Ctrl+S |
+| 退出 | Ctrl+Q | 保存 Y 不保存 N   |
+| 帮助 | Ctrl+G |
+
+## Ncdu 存储分析
+
+| 名称 | 用法 |
+| ---- | ---- |
+| 删除 | D    |
 
 ## 其它命令
 
