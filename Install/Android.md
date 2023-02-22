@@ -12,4 +12,4 @@ category:
 
 - [<FontIcon icon="page"/> TMOE：PRoot/chroot 容器（有 root 推荐）](TMOE.md)
 
-- [<FontIcon icon="page"/> vmConsole：QEMU 虚拟机](vmConsole.md)
+- [<FontIcon icon="page"/> vmConsole：QEMU 虚拟机（不推荐）](vmConsole.md)
