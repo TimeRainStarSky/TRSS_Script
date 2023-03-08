@@ -2,7 +2,7 @@
 title: 常用命令
 icon: command
 order: 1
-date: 2023-2-20
+date: 2023-02-20
 category:
   - 使用教程
   - TUI
@@ -17,7 +17,7 @@ category:
 | 切换窗口     | Ctrl+B W    |
 | 新建窗口     | Ctrl+B C    |
 | 分屏         | Ctrl+B -/\_ |
-| 切换鼠标模式 | Ctrl+B M    |
+| 切换鼠标模式 | 按住 Shift  |
 | 切换复制模式 | Ctrl+B ↲    |
 | 杀死窗口     | Ctrl+B X Y  |
 

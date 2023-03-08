@@ -1,7 +1,7 @@
 ---
 title: vmConsole
 icon: page
-date: 2023-1-12
+date: 2023-01-12
 category:
   - 安装教程
   - Android

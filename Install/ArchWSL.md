@@ -8,7 +8,7 @@ category:
   - ArchWSL
 ---
 
-1. 在 `终端(管理员)` 或 `Windows 功能` 中：
+1. 右键开始菜单，选择 `终端(管理员)` 或 `Windows 功能` 中：
 
 启用 `适用于 Linux 的 Windows 子系统`
 
