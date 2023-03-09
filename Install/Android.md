@@ -8,7 +8,7 @@ category:
   - Android
 ---
 
-- [<FontIcon icon="page"/> MT 管理器：PRoot 容器（无 root 推荐）](MTArch.md)
+- [<FontIcon icon="page"/> MT 管理器 / Termux：PRoot 容器（无 root 推荐）](MTArch.md)
 
 - [<FontIcon icon="page"/> TMOE：PRoot/chroot 容器（有 root 推荐）](TMOE.md)
 

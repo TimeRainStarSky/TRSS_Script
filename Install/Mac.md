@@ -12,10 +12,13 @@ category:
 
 ::: warning
 
-可能出现找不到 md5sum 的问题，按以下示例修改安装命令禁用 md5 校验：
+可能出现找不到 md5sum 的问题，按以下示例禁用 md5 校验：
 
 ```sh
-bash <(curl xxx|sed /md5sum/d)
+# 原安装命令
+bash <(x)
+# 修改后安装命令
+bash <(x|sed /md5sum/d)
 ```
 
 :::

@@ -55,7 +55,10 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-Docker.sh
 举例：将脚本安装至 `/Bot` 启动命令 `trss` 容器名 `TRSS`
 
 ```sh
-DIR=/Bot CMD=trss DKNAME=TRSS bash <(curl xxx)
+# 原安装命令
+bash <(x)
+# 修改后安装命令
+DIR=/Bot CMD=trss DKNAME=TRSS bash <(x)
 ```
 
 :::

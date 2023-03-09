@@ -10,9 +10,13 @@ category:
 
 ## MSYS2 安装
 
-- [MSYS2 UCRT64](https://msys2.org)
+- [MSYS2 官网](https://msys2.org)
 
-- [GitHub Proxy 镜像源](https://ghproxy.com/github.com/msys2/msys2-installer/releases/download/nightly-x86_64/msys2-x86_64-latest.exe)
+- [MSYS2 安装程序](https://github.com/msys2/msys2-installer/releases/download/nightly-x86_64/msys2-x86_64-latest.exe)
+
+::: warning
+若速度太慢，可使用 GitHub 加速，如：[GitHub Proxy](https://ghproxy.com/github.com/msys2/msys2-installer/releases/download/nightly-x86_64/msys2-x86_64-latest.exe)
+:::
 
 ## 脚本安装
 
@@ -68,8 +72,11 @@ bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-MSYS2.sh)
 
 举例：将脚本安装至 `/Bot` 启动命令 `trss`
 
-```
-DIR=/Bot CMD=trss bash <(curl xxx)
+```sh
+# 原安装命令
+bash <(x)
+# 修改后安装命令
+DIR=/Bot CMD=trss bash <(x)
 ```
 
 :::

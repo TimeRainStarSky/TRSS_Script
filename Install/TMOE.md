@@ -13,7 +13,7 @@ TMOE 启动命令：
 
 ```sh
 awk -f <(curl -L l.tmoe.me/2.awk)
-# 备用地址：
+# 备用地址
 awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 ```
 

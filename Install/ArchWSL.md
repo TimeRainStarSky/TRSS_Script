@@ -126,13 +126,19 @@ pacman -Syy archlinux-keyring && pacman -Syu
 
 启动：运行 `Arch.exe` 或终端输入 `wsl`
 
-在`文件资源管理器`中打开 ArchWSL 主目录：
+::: tip
+推荐使用 [Windows 终端](https://learn.microsoft.com/zh-cn/windows/terminal)
+:::
+
+文件管理：在 `文件资源管理器` 中打开（`Win+R` 运行）：
 
 ```
 \\wsl$\Arch\root
 ```
 
-其他功能请参阅 [Microsoft 官方文档](https://docs.microsoft.com/zh-cn/windows/wsl) 和 [ArchWSL 文档](https://github.com/yuk7/ArchWSL/blob/master/i18n/README_zh-cn.md)
+卸载：`wsl --unregister Arch`
+
+其他功能请参阅 [Microsoft 官方文档](https://learn.microsoft.com/zh-cn/windows/wsl) 和 [ArchWSL 文档](https://github.com/yuk7/ArchWSL/blob/master/i18n/README_zh-cn.md)
 
 ---
 

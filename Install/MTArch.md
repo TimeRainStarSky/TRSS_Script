@@ -8,7 +8,7 @@ category:
   - MT管理器
 ---
 
-1. 准备：[MT 管理器](https://mt2.cn)
+1. 准备：[MT 管理器](https://mt2.cn) 或 [Termux](https://termux.dev/cn)
 
 2. 打开 `MT管理器`，菜单选择 `终端模拟器`，执行：
 
