@@ -41,13 +41,13 @@ awk -f <(curl -L gitee.com/mo2/linux/raw/2/2.awk)
 
 ![3](/Install/TMOE/3.jpg)
 
----
-
 ::: warning
+
 在出现 `(Y/I/N/O/D/Z) [default=N] ?` 之类的选项时：`直接按回车即可`
-:::
 
 ![4](/Install/TMOE/4.jpg)
+
+:::
 
 ---
 

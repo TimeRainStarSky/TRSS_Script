@@ -117,13 +117,20 @@ features:
 
 ### 时雨🌌星空
 
-- GitHub：[TimeRainStarSky](https://github.com/TimeRainStarSky)
-- 酷安：[时雨丶星空](https://coolapk.com/u/2650948)
 - QQ：[2536554304](https://qm.qq.com/cgi-bin/qm/qr?k=x8LtlP8vwZs7qLwmsbCsyLoAHy7Et1Pj)
+- GitHub：[TimeRainStarSky](https://github.com/TimeRainStarSky)
 - Telegram：[TimeRainStarSky](https://t.me/TimeRainStarSky)
+
+## 感谢支持
+
+- [火柴](https://gitee.com/ranks)
+- [椰羊](https://gitee.com/yeyang52)
+- [听语惊花](https://gitee.com/Nwflower)
+- [SnowyKami](https://gitee.com/snowykami)
+- [花海里的秋刀鱼](https://gitee.com/Saury-loser)
 
 ## 赞助支持
 
-- 爱发电：<https://afdian.net/a/TimeRainStarSky>
-- Partme：<https://partme.com/TimeRainStarSky>
-- 感谢名单：<https://github.com/TimeRainStarSky/SponsorList>
+- [爱发电](https://afdian.net/a/TimeRainStarSky)
+- [Partme](https://partme.com/TimeRainStarSky)
+- [感谢名单](https://github.com/TimeRainStarSky/SponsorList)
