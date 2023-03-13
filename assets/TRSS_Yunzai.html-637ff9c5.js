@@ -1,0 +1,1 @@
+import{_ as a,X as t,Y as c,Z as e,$ as n}from"./framework-86c85d47.js";const r={},s=e("h2",{id:"主功能",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#主功能","aria-hidden":"true"},"#"),n(" 主功能")],-1),_=[s];function o(d,i){return t(),c("div",null,_)}const l=a(r,[["render",o],["__file","TRSS_Yunzai.html.vue"]]);export{l as default};
