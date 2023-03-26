@@ -1,7 +1,7 @@
 ---
 title: 常用命令
 icon: command
-order: 1
+order: 2
 date: 2023-02-20
 category:
   - 使用教程

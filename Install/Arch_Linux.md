@@ -12,40 +12,16 @@ category:
 
 ::: code-tabs#Script
 
+@tab TRSS AllBot
+
+```sh
+bash <(curl -L gitee.com/TimeRainStarSky/TRSS_AllBot/raw/main/Install.sh)
+```
+
 @tab TRSS OneBot
 
 ```sh
 bash <(curl -L gitee.com/TimeRainStarSky/TRSS_OneBot/raw/linux/Install.sh)
-```
-
-@tab TRSS Liteyuki
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Liteyuki/raw/main/Install.sh)
-```
-
-@tab TRSS Yunzai
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install.sh)
-```
-
-@tab TRSS Sagiri
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Sagiri/raw/main/Install.sh)
-```
-
-@tab TRSS Amiya
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install.sh)
-```
-
-@tab TRSS Zhenxun
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install.sh)
 ```
 
 :::

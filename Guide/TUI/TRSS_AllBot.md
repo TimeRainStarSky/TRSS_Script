@@ -1,12 +1,12 @@
 ---
-title: TRSS Liteyuki TUI 使用教程
+title: TRSS AllBot TUI 使用教程
 icon: creative
 order: 3
-date: 2022-12-18
+date: 2023-03-26
 category:
   - 使用教程
   - TUI
-  - TRSS Liteyuki
+  - TRSS AllBot
 ---
 
 ## 主功能

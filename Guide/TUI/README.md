@@ -14,14 +14,6 @@ category:
 
 ## 项目功能
 
+- [<FontIcon icon="creative"/> TRSS AllBot](TRSS_AllBot.md)
+
 - [<FontIcon icon="creative"/> TRSS OneBot](TRSS_OneBot.md)
-
-- [<FontIcon icon="creative"/> TRSS Liteyuki](TRSS_Liteyuki.md)
-
-- [<FontIcon icon="creative"/> TRSS Yunzai](TRSS_Yunzai.md)
-
-- [<FontIcon icon="creative"/> TRSS Sagiri](TRSS_Sagiri.md)
-
-- [<FontIcon icon="creative"/> TRSS Amiya](TRSS_Amiya.md)
-
-- [<FontIcon icon="creative"/> TRSS Zhenxun](TRSS_Zhenxun.md)

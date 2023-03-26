@@ -12,39 +12,9 @@ category:
 
 ## 容器安装
 
-::: code-tabs#Script
-
-@tab TRSS Liteyuki
-
 ```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Liteyuki/raw/main/Install-Docker.sh)
+bash <(curl -L gitee.com/TimeRainStarSky/TRSS_AllBot/raw/main/Install-Docker.sh)
 ```
-
-@tab TRSS Yunzai
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Yunzai/raw/main/Install-Docker.sh)
-```
-
-@tab TRSS Sagiri
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Sagiri/raw/main/Install-Docker.sh)
-```
-
-@tab TRSS Amiya
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Amiya/raw/main/Install-Docker.sh)
-```
-
-@tab TRSS Zhenxun
-
-```sh
-bash <(curl -L gitee.com/TimeRainStarSky/TRSS_Zhenxun/raw/main/Install-Docker.sh)
-```
-
-:::
 
 ::: details 自定义功能
 
