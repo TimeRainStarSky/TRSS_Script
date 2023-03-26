@@ -16,8 +16,6 @@ category:
 curl -LO gitee.com/TimeRainStarSky/TRSS-MTArch/raw/main/Install.sh && bash Install.sh
 ```
 
-3. 脚本安装：[<FontIcon icon="page"/> Arch Linux](Arch_Linux.md)
-
 ---
 
 启动：`start`
