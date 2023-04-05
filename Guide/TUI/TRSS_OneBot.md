@@ -1,7 +1,7 @@
 ---
 title: TRSS OneBot TUI 使用教程
 icon: creative
-order: 4
+order: 3
 date: 2022-12-18
 category:
   - 使用教程

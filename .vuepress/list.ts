@@ -52,6 +52,36 @@ export const list = [
     link: "Guide/",
     prefix: "Guide/",
     collapsible: true,
-    children: "structure"
+    children: [
+      {
+        text: "脚本功能",
+        icon: "guide",
+        collapsible: true,
+        children: [
+          {
+            text: "CLI 使用教程",
+            icon: "shell",
+            prefix: "CLI/",
+            collapsible: true,
+            children: "structure"
+          },
+          {
+            text: "TUI 使用教程",
+            icon: "window",
+            prefix: "TUI/",
+            collapsible: true,
+            children: "structure"
+          },
+          { text: "常用命令", icon: "command", link: "Command.md" }
+        ]
+      },
+      {
+        text: "项目功能",
+        icon: "creative",
+        prefix: "Project/",
+        collapsible: true,
+        children: "structure"
+      }
+    ]
   }
 ]

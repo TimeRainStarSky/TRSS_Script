@@ -119,8 +119,8 @@ sudo usermod -aG docker $USER
 若只有 `Debian 10` 以下，可执行以下命令并重启服务器后升级到 `Debian 12`
 
 ```sh
-echo 'deb http://ftp.cn.debian.org/debian bookworm main contrib non-free
-deb http://ftp.cn.debian.org/debian bookworm-updates main contrib non-free
-deb http://ftp.cn.debian.org/debian-security bookworm-security main contrib non-free'>/etc/apt/sources.list
+echo 'deb http://ftp.cn.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb http://ftp.cn.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+deb http://ftp.cn.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware'>/etc/apt/sources.list
 apt update && apt full-upgrade -y && apt autoremove --purge -y && apt clean
 ```
