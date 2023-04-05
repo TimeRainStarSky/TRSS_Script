@@ -1,1 +1,0 @@
-import{_ as t,X as a,Y as o,Z as e,$ as c}from"./framework-86c85d47.js";const r={},s=e("h2",{id:"主功能",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#主功能","aria-hidden":"true"},"#"),c(" 主功能")],-1),_=[s];function n(l,d){return a(),o("div",null,_)}const h=t(r,[["render",n],["__file","TRSS_AllBot.html.vue"]]);export{h as default};
