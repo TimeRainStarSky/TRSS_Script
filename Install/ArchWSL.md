@@ -144,7 +144,7 @@ pacman -Syy archlinux-keyring && pacman -Syu
 
 ## 常见问题
 
-::: details 参考的对象类型不支持尝试的操作。
+::: details 参考的对象类型不支持尝试的操作。/ 占位程序接收到错误数据。
 
 ```sh
 netsh winsock reset

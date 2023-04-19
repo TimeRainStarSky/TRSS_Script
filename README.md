@@ -113,7 +113,10 @@ features:
 
 ## 联系方式
 
-- QQ 群组：[211414032](https://jq.qq.com/?k=QU1xGLEB)
+- QQ 群组：
+1. [659945190](https://jq.qq.com/?k=VBuHGPv3)
+2. [1027131254](https://jq.qq.com/?k=Af0pTDHU)
+3. [300714227](https://jq.qq.com/?k=V2xVpaR7)
 
 ### 时雨🌌星空
 
